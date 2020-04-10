@@ -19,7 +19,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:fontFamily="@font/baloo"
                 android:text="shoprr"
                 android:textColor="#000000"
@@ -46,8 +45,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_conversion_absoluteHeight="50dp"
                 tools:layout_conversion_absoluteWidth="68dp" />
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </RelativeLayout>
@@ -82,7 +79,7 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view"
+        android:id="@+id/stRecycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipToPadding="false"
@@ -94,7 +91,7 @@
         android:id="@+id/tem"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_below="@+id/recycler_view">
+        android:layout_below="@+id/stRecycler">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp">

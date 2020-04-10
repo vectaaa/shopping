@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
+    android:id="@+id/cardie"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="300dp"
     android:layout_width="190dp"
@@ -11,13 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="8dp">
-
             <ImageView
                 android:id="@+id/image_view"
                 android:layout_width="176dp"
@@ -49,7 +47,6 @@
                 android:text="Clothing"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"/>
-
             <TextView
                 android:id="@+id/second_text"
                 android:layout_width="171dp"
@@ -63,9 +60,8 @@
                 android:text="All Sizes and Description"
                 android:textColor="@android:color/black"
                 android:textSize="10sp" />
-
             <TextView
-                android:id="@+id/second_text"
+                android:id="@+id/third_text"
                 android:layout_width="73dp"
                 android:layout_height="30dp"
                 android:layout_alignParentStart="true"

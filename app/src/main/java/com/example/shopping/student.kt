@@ -1,5 +1,4 @@
-package com.example.shop
-
+package com.example.shopping
 class student {
 
     private lateinit var sname: String
