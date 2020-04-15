@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f5f6f7"
-    tools:context=".Clothes">
+    tools:context=".ProductDetailsActivity">
 
     <RelativeLayout
         android:layout_width="335dp"
@@ -14,66 +15,52 @@
         >
 
         <ImageView
+            android:id="@+id/product_image"
             android:layout_width="400dp"
             android:layout_height="match_parent"
 
-            android:src="@drawable/laptop" />
+            android:src="@drawable/shirtt" />
 
         <RelativeLayout
             android:layout_width="140dp"
-            android:layout_height="90dp"></RelativeLayout>
+            android:layout_height="90dp"/>
     </RelativeLayout>
 
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/productdescription"
+        android:layout_width="339dp"
+        android:layout_height="106dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="463dp"
-        android:layout_marginEnd="231dp"
-        android:layout_marginRight="231dp"
-        android:layout_marginBottom="249dp"
-        android:text="Hp computer Intel core i5"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="160dp"
+        android:text="Fashionable mens wwear at a god priceHigly Durable, Cotton material for every function"
         android:textColor="#000000"
+        android:textSize="16dp"
         tools:layout_editor_absoluteX="261dp"
         tools:layout_editor_absoluteY="236dp" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:id="@+id/productprice"
+        android:layout_width="170dp"
+        android:layout_height="114dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="491dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginRight="92dp"
-        android:layout_marginBottom="200dp"
-        android:text="Higly Durable, for every function with properfunctionality"
-        android:textColor="#000000"
-        tools:layout_editor_absoluteX="261dp"
-        tools:layout_editor_absoluteY="236dp" />
-
-
-    <TextView
-        android:layout_width="149dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="621dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginRight="27dp"
-        android:layout_marginBottom="41dp"
+        android:layout_marginTop="597dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="20dp"
         android:text="NGN 5000"
         android:textColor="#000000"
         android:textSize="30dp"
@@ -129,8 +116,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="573dp"
-        android:layout_marginEnd="275dp"
-        android:layout_marginRight="275dp"
+        android:layout_marginEnd="263dp"
+        android:layout_marginRight="263dp"
         android:layout_marginBottom="139dp"
         android:src="@drawable/star"
         android:textColor="#000000"
@@ -147,10 +134,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="574dp"
-        android:layout_marginEnd="241dp"
-        android:layout_marginRight="241dp"
-        android:layout_marginBottom="138dp"
+        android:layout_marginTop="573dp"
+        android:layout_marginEnd="213dp"
+        android:layout_marginRight="213dp"
+        android:layout_marginBottom="139dp"
         android:src="@drawable/star"
         android:textColor="#000000"
         android:textStyle="bold"
@@ -158,18 +145,27 @@
         tools:layout_editor_absoluteY="236dp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/productname"
+        android:layout_width="322dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="291dp"
-        android:layout_marginRight="291dp"
-        android:layout_marginBottom="281dp"
-        android:text="Computers"
-        android:textStyle="bold"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="416dp"
+
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="288dp"
+        android:text="Polo Ralph Lauren"
         android:textColor="#000000"
         android:textSize="20sp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="267dp"
         tools:layout_editor_absoluteY="198dp" />
 </RelativeLayout>
+</layout>
